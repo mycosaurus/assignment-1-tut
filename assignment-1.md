@@ -2,19 +2,12 @@ Tutorial 2
 ================
 Siobhan
 
-GitHub Documents
-----------------
+R Markdown
+----------
 
-This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-Including Code
---------------
-
-You can include R code in the document as follows:
-
-``` r
-summary(cars)
-```
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
     ##      speed           dist       
     ##  Min.   : 4.0   Min.   :  2.00  
@@ -29,6 +22,6 @@ Including Plots
 
 You can also embed plots, for example:
 
-![](assignment-1_files/figure-markdown_github/pressure-1.png)
+<img src="figures/pressure-1.png" style="display: block; margin: auto;" />
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
